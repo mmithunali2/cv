@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url(Images/background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.clear{
+    clear: both;
+}
+/* Head hr */
+hr{ 
+    width: 100%;
+    margin: 05px auto;
+    border: 2px solid aquamarine;
+    border-bottom: 0;
+}
+p{
+    color: rgba(245, 222, 179, 0.781);
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgba(127, 255, 212, 0.911);
+}
+.cv_title{
+    text-align: center;
+    
+}
+.cv_title h1{
+    color: rgb(226, 145, 23);
+}
+
+.common_hr{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid rgb(226, 43, 202);
+    border-bottom: none;
+}
+.container{
+    max-width: 1000px;
+    background-color: rgba(38, 30, 110, 0.671);
+    margin: 10px auto 0 auto;
+    padding: 20px;
+}
+.container header{
+    
+}
+.profile_image{
+    width: 120px;
+    height: 140px;
+    border: 3px solid rgb(202, 191, 171);
+    border-radius: 50%;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 30px;
+}
+
+.header_contact{
+    float:right;
+    padding: 35px;
+    line-height: 20px;
+}
+.header_contact a{
+    text-decoration: none;
+    color: rgb(36, 196, 196);
+    font-weight: bold;
+}
+.header_contact a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+/* Main start */
+.container main{
+    
+}
+#personal_section{
+    
+}
+.content{
+    width: 100%;
+}
+.left{
+    float: left;
+    width: 30%;
+}
+.edu_left{
+    float: left;
+    width: 50%;
+}
+.edu_right{
+    float: left;
+    width: 50%;
+}
+.right{
+    width: 70%;
+    float: left;
+}
+.container footer{
+    bottom: 0;
+}
+.footer_section{
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    padding: 10px;
+}
+.footer_section a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    margin: 20px;
+}
+.footer_section a:hover{
+    cursor: pointer;
+    color: rgb(126, 126, 126);
+}
+.footer_section p{
+    color: rgb(136, 136, 136);
+    margin-top: 20px;
+}
